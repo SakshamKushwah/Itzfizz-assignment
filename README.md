@@ -30,4 +30,4 @@ Open `index.html` in browser.
 2. In repo settings, enable Pages from `main` branch root.
 3. Your live link will be:
 
-`https://<your-github-username>.github.io/<repo-name>/`
+`https://github.com/SakshamKushwah/Itzfizz-assignment`
