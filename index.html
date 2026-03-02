@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Hero Animation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <p class="eyebrow">SCROLL DRIVEN EXPERIENCE</p>
+          <h1 class="headline" aria-label="WELCOME ITZ FIZZ">
+            <span>W</span><span>E</span><span>L</span><span>C</span><span>O</span><span>M</span><span>E</span>
+            <span class="gap" aria-hidden="true"></span>
+            <span>I</span><span>T</span><span>Z</span>
+            <span class="gap" aria-hidden="true"></span>
+            <span>F</span><span>I</span><span>Z</span><span>Z</span>
+          </h1>
+
+          <div class="stats">
+            <article class="stat-card">
+              <h2>98%</h2>
+              <p>Animation smoothness score in test runs</p>
+            </article>
+            <article class="stat-card">
+              <h2>120ms</h2>
+              <p>Average response to scroll direction changes</p>
+            </article>
+            <article class="stat-card">
+              <h2>3.4x</h2>
+              <p>Higher user engagement vs static hero</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual-wrap">
+          <div class="visual-glow" aria-hidden="true"></div>
+          <figure class="hero-visual" id="heroVisual">
+            <img
+              src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1400&q=80"
+              alt="Modern sports car"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="scroll-space">
+        <div class="scroll-copy">
+          <h2>Keep scrolling</h2>
+          <p>
+            This section exists to create enough scroll depth so the hero animation can be observed clearly.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
