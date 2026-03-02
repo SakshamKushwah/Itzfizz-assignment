@@ -31,3 +31,7 @@ Open `index.html` in browser.
 3. Your live link will be:
 
 `https://github.com/SakshamKushwah/Itzfizz-assignment`
+
+## live link 
+
+`https://itzfizz-assignment-nine.vercel.app/`
